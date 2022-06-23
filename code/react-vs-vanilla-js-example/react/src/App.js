@@ -5,6 +5,7 @@ function App() {
     <div>
       <h1>My Todos</h1>
       <Todo text='Learn React' />
+      <Todo text='섹션 1 학습' />
     </div>
   );
 }
