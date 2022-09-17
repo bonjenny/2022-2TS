@@ -1,3 +1,4 @@
+import ExpenseItem from './components/ExpenseItem';
 import Todo from './components/Todo';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <h1>My Todos</h1>
       <Todo text='Learn React' />
       <Todo text='섹션 1 학습' />
+      <ExpenseItem />
     </div>
   );
 }
