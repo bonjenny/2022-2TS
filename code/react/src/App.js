@@ -34,7 +34,6 @@ function App() {
     <div>
       <h1>My Todos</h1>
       <Todo text='Learn React' />
-
       <h2>Let's get started!</h2>
       <Expenses items={expenses} />
     </div>

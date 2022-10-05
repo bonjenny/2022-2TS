@@ -34,7 +34,6 @@ function showModalHandler() {
 
   backdrop = document.createElement('div');
   backdrop.className = 'backdrop';
-
   backdrop.addEventListener('click', closeModalHandler);
 
   document.body.append(backdrop);
