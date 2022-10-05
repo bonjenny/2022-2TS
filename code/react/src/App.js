@@ -1,5 +1,5 @@
-import Todo from './components/Todo';
-import Expenses from './components/Expenses';
+import Todo from './components/01Start/Todo';
+import Expenses from './components/03ReactBasic/Expense/Expenses';
 
 function App() {
 
