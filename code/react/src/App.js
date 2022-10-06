@@ -1,5 +1,6 @@
 import React from "react";
-import Todo from "./components/01Start/Todo";
+// import Todo from "./components/01Start/Todo";
+import NewExpense from "./components/03ReactBasic/NewExpense/NewExpense";
 import Expenses from "./components/03ReactBasic/Expense/Expenses";
 
 const App = () => {
@@ -32,9 +33,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>My Todos</h1>
-      <Todo text='Learn React' />
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
