@@ -5,3 +5,9 @@
   width: 50rem;
   max-width: 95%;
 }
+
+.expenses p {
+  padding: 1rem;
+  font-size: 18px;
+  color: white;
+}
