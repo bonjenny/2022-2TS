@@ -1,5 +1,4 @@
 import React from 'react';
-
 import CourseGoalItem from '../CourseGoalItem/CourseGoalItem';
 import './CSS/CourseGoalList.css';
 
@@ -18,5 +17,4 @@ const CourseGoalList = props => {
     </ul>
   );
 };
-
 export default CourseGoalList;
