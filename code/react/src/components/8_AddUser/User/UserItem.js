@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+// import { useState } from "react";
 import "./CSS/UserItem.css";
 
 const UserItem = props => {
-  const [deleteUser, setDeleteUser] = useState("");
+  // const [deleteUser, setDeleteUser] = useState("");
 
   const deleteHandler = () => {
-    setDeleteUser("(Deleted!)");
+    // setDeleteUser("(Deleted!)");
     props.onDelete(props.id);
   };
 

@@ -22,7 +22,6 @@ const App = () => {
   };
 
   const deleteUserHandler = (userId) => {
-    console.log('삭제!');
     setUsers((prevUsers) => {
       const updatedUsers = prevUsers.filter((user) => user.id !== userId);
       return updatedUsers;
