@@ -5,7 +5,7 @@
 .form-control label {
   font-weight: bold;
   display: block;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0;
 }
 
 .form-control input {
@@ -19,5 +19,5 @@
 
 .form-control input:focus {
   outline: none;
-  border: 2px solid purple;
+  border-color: purple;
 }
