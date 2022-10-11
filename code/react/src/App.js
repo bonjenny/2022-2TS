@@ -1,45 +1,45 @@
 import React, { useState } from 'react';
-import CourseGoalList from './components/5-7_CourseGoal/CourseGoals/CourseGoalList/CourseGoalList';
-import CourseInput from './components/5-7_CourseGoal/CourseGoals/CourseInput/CourseInput';
+import UserInput from './components/8_AddUser/User/UserInput';
+import UserList from './components/8_AddUser/User/UserList';
 import './App.css';
 
 const App = () => {
-  const [courseGoals, setCourseGoals] = useState([
-    { text: 'Do all exercises!', id: 'g1' },
-    { text: 'Finish the course!', id: 'g2' }
+  const [users, setUsers] = useState([
+    { name: 'Max', age: '31', id: 'a1' },
+    { name: 'Jenny', age: '21', id: 'a2' }
   ]);
 
-  const addGoalHandler = enteredText => {
-    setCourseGoals(prevGoals => {
-      const updatedGoals = [...prevGoals];
-      updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
-      return updatedGoals;
+  const addUserHandler = enteredText => {
+    setUsers(prevUsers => {
+      const updatedUsers = [...prevUsers];
+      updatedUsers.unshift({ name: enteredText.name, age: enteredText.age, id: Math.random().toString() });
+      return updatedUsers;
     });
   };
-
-  const deleteItemHandler = goalId => {
-    setCourseGoals(prevGoals => {
-      const updatedGoals = prevGoals.filter(goal => goal.id !== goalId);
-      return updatedGoals;
+  
+  const deleteUserHandler = userId => {
+    setUsers(prevUsers => {
+      const updatedUsers = prevUsers.filter(user => user.id !== userId);
+      return updatedUsers;
     });
   };
 
   let content = (
-    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
+    <p style={{ textAlign: 'center' }}>No users found. Maybe add one?</p>
   );
 
-  if (courseGoals.length > 0) {
+  if (users.length > 0) {
     content = (
-      <CourseGoalList items={courseGoals} onDeleteItem={deleteItemHandler} />
+      <UserList items={users} onDeleteUser={deleteUserHandler} />
     );
   }
 
   return (
     <div>
-      <section id="goal-form">
-        <CourseInput onAddGoal={addGoalHandler} />
+      <section id="user-form">
+        <UserInput onAddUser={addUserHandler} />
       </section>
-      <section id="goals">
+      <section id="users">
         {content}
       </section>
     </div>
