@@ -4,7 +4,7 @@ import "./Modal.css";
 
 const Modal = (props) => {
   return (
-    <div className="modal__background">
+    <div className="modal__background" onClick={props.onClose}>
       <section className="modal">
         <header>{props.header}</header>
         <main>{props.children}</main>
