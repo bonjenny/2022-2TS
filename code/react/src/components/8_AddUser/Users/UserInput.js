@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import Modal from "../UI/Modal/Modal";
-import Card from "../UI/Card/Card";
-import Button from "../UI/Button/Button";
+import Modal from "../UI/Modal";
+import Card from "../UI/Card";
+import Button from "../UI/Button";
 import styles from "./CSS/UserInput.module.css";
 
 const UserInput = (props) => {

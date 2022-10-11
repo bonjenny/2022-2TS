@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import UserInput from "./components/8_AddUser/User/UserInput";
-import UserList from "./components/8_AddUser/User/UserList";
+import AddUser from "./components/8_AddUser/Users/AddUser";
+import UserInput from "./components/8_AddUser/Users/UserInput";
+import UserList from "./components/8_AddUser/Users/UserList";
 import "./App.css";
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
 
   return (
     <div>
+      <AddUser />
       <section id="user-form">
         <UserInput onAddUser={addUserHandler} />
       </section>

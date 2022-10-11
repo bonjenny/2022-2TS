@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Button/Button";
-import "./Modal.css";
+import Button from "./Button";
+import "./CSS/Modal.css";
 
 const Modal = (props) => {
   return (
