@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AddUser from "./components/8_AddUser/Users/AddUser";
+import UsersList from "./components/8_AddUser/Users/UsersList";
 import UserInput from "./components/8_AddUser/Users/UserInput";
 import UserList from "./components/8_AddUser/Users/UserList";
 import "./App.css";
@@ -40,6 +41,7 @@ const App = () => {
   return (
     <div>
       <AddUser />
+      <UsersList users={users} />
       <section id="user-form">
         <UserInput onAddUser={addUserHandler} />
       </section>

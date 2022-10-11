@@ -1,4 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
+import UsersList from "./UsersList";
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import classes from "./CSS/AddUser.module.css";
@@ -12,7 +13,7 @@ const AddUser = props => {
     if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0 ) {
       return;
     }
-    if (enteredAge < 1) {
+    if (+enteredAge < 1) {
       return;
     }
     console.log(enteredUsername, enteredAge);
@@ -37,6 +38,7 @@ const AddUser = props => {
         <input id="age" type="number" value={enteredAge} onChange={ageChangeHandler} />
         <Button type="submit">Add User</Button>
       </form>
+      <UsersList />
     </Card>
   );
 };
