@@ -1,51 +1,44 @@
 import React, { useState } from "react";
 import AddUser from "./components/8_AddUser/Users/AddUser";
 import UsersList from "./components/8_AddUser/Users/UsersList";
-import UserInput from "./components/8_AddUser/Users/UserInput";
-import UserList from "./components/8_AddUser/Users/UserList";
 import "./App.css";
 
 const App = () => {
-  const [users, setUsers] = useState([
+  const [usersList, setUsersList] = useState([
     { name: "Max", age: "31", id: "a1" },
     { name: "Jenny", age: "21", id: "a2" },
   ]);
 
-  const addUserHandler = (enteredText) => {
-    setUsers((prevUsers) => {
-      const updatedUsers = [...prevUsers];
-      updatedUsers.unshift({
-        name: enteredText.name,
-        age: enteredText.age,
+  const addUserHandler = (uName, uAge) => {
+    setUsersList((prevUsersList) => {
+      return [...prevUsersList, {
+        name: uName,
+        age: uAge,
         id: Math.random().toString(),
-      });
-      return updatedUsers;
+      }];
     });
   };
 
   const deleteUserHandler = (userId) => {
-    setUsers((prevUsers) => {
+    setUsersList((prevUsers) => {
       const updatedUsers = prevUsers.filter((user) => user.id !== userId);
       return updatedUsers;
     });
   };
 
-  let content = (
-    <p style={{ textAlign: "center" }}>No users found. Maybe add one?</p>
-  );
-
-  if (users.length > 0) {
-    content = <UserList items={users} onDeleteUser={deleteUserHandler} />;
-  }
+  // let content = (<p style={{ textAlign: "center" }}>No users found. Maybe add one?</p>);
+  // if (+users.length > 0) {
+  //   content = <UsersList users={[]} onDeleteUser={deleteUserHandler} />;
+  // }
 
   return (
     <div>
-      <AddUser />
-      <UsersList users={users} />
       <section id="user-form">
-        <UserInput onAddUser={addUserHandler} />
+        <AddUser onAddUser={addUserHandler} />
       </section>
-      <section id="users">{content}</section>
+      <section id="users">
+        <UsersList users={usersList} onDeleteUser={deleteUserHandler} />
+      </section>
     </div>
   );
 };

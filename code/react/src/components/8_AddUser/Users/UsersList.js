@@ -3,12 +3,14 @@ import UserItem from "./UserItem";
 import Card from "../UI/Card";
 import classes from "./CSS/UsersList.module.css";
 
-const UsersList = (props) => {
+const UsersList = props => {
   return (
-    <Card>
-      <ul className={classes.users}>
-        {/* {props.users.map(user => (
-          <li>{user.name} ({user.age} years old)</li>
+    <Card className={classes.users}>
+      <ul>
+        {props.users.map(user => (
+          <li key={user.id}>
+            {user.name} ({user.age} years old)
+          </li>
           // <UserItem
           //   key={user.id}
           //   id={user.id}
@@ -16,7 +18,7 @@ const UsersList = (props) => {
           // >
           //   {user.name} ({user.age} years old)
           // </UserItem>
-        ))} */}
+        ))}
       </ul>
     </Card>
   );
