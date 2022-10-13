@@ -4,22 +4,28 @@ import Card from "../UI/Card";
 import classes from "./CSS/UsersList.module.css";
 
 const UsersList = props => {
+
+  let content = (
+    <p style={{textAlign: "center"}}>
+      No users found. Maybe add one?</p>
+  );
+  if (+props.users.length > 0) {
+    content = (
+      props.users.map(user => (
+        <UserItem
+          key={user.id}
+          id={user.id}
+          onDelete={props.onDeleteUser}
+        >
+          {user.name} ({user.age} years old)
+        </UserItem>
+      ))
+    );
+  }
+
   return (
     <Card className={classes.users}>
-      <ul>
-        {props.users.map(user => (
-          <li key={user.id}>
-            {user.name} ({user.age} years old)
-          </li>
-          // <UserItem
-          //   key={user.id}
-          //   id={user.id}
-          //   onDelete={props.onDeleteUser}
-          // >
-          //   {user.name} ({user.age} years old)
-          // </UserItem>
-        ))}
-      </ul>
+      <ul>{content}</ul>
     </Card>
   );
 };

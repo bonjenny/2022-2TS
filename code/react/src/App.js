@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import AddUser from "./components/8_AddUser/Users/AddUser";
-import UserInput from "./components/8_AddUser/Users/UserInput";
 import UsersList from "./components/8_AddUser/Users/UsersList";
 import "./App.css";
 
@@ -27,16 +26,10 @@ const App = () => {
     });
   };
 
-  // let content = (<p style={{ textAlign: "center" }}>No users found. Maybe add one?</p>);
-  // if (+users.length > 0) {
-  //   content = <UsersList users={[]} onDeleteUser={deleteUserHandler} />;
-  // }
-
   return (
     <div>
       <section id="user-form">
         <AddUser onAddUser={addUserHandler} />
-        <UserInput onAddUser={addUserHandler} />
       </section>
       <section id="users">
         <UsersList users={usersList} onDeleteUser={deleteUserHandler} />
