@@ -8585,6 +8585,21 @@
   dependencies:
     "punycode" "^2.1.0"
 
+"use-context@^0.0.1":
+  "integrity" "sha512-E3UlFYcr4IFCEs8RfoHCV9TD+PWJrray212or/u0646wfUELO53lWv/0qA6rQY6hDk8/L0Gv7+UOGKjJxYzApQ=="
+  "resolved" "https://registry.npmjs.org/use-context/-/use-context-0.0.1.tgz"
+  "version" "0.0.1"
+
+"use-effect@^0.0.1":
+  "integrity" "sha512-B6+7/GFslLxpqqODSWonhBj6ANDW8v6djYfSYbHZW5ZZSn2POW/eJnYTY3UiwjJLCQCnFQppDQd2pYr/gCdnkg=="
+  "resolved" "https://registry.npmjs.org/use-effect/-/use-effect-0.0.1.tgz"
+  "version" "0.0.1"
+
+"use-reducer@^0.0.1":
+  "integrity" "sha512-lqxll7X4IrLo7AFbm9kVHEkAPOGo+UkXWm1607HR2ZTRshAr8f2zlqS8wpZtmaA+Y7hO/UmA6lOc2lkTFtJGEQ=="
+  "resolved" "https://registry.npmjs.org/use-reducer/-/use-reducer-0.0.1.tgz"
+  "version" "0.0.1"
+
 "useref@^1.4.4":
   "integrity" "sha512-Hcr9SSq1OsLSa9VAVtA28j8HrpFB2AdbRAkFPbBArDe6y54jQmgulQRxphdi5TAjVPj0mmEJfjBUuZArsmfsqQ=="
   "resolved" "https://registry.npmjs.org/useref/-/useref-1.4.4.tgz"

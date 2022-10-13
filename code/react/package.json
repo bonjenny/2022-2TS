@@ -10,6 +10,9 @@
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.6",
+    "use-context": "^0.0.1",
+    "use-effect": "^0.0.1",
+    "use-reducer": "^0.0.1",
     "useref": "^1.4.4",
     "web-vitals": "^1.1.0"
   },
