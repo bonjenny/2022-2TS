@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import Modal from "../UI/Modal";
+import ErrorModal from "../UI/ErrorModal";
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import styles from "./CSS/UserInput.module.css";
@@ -78,9 +78,11 @@ const UserInput = (props) => {
         </div>
         <Button type="submit">Add User</Button>
       </form>
-      { !isValid && <Modal onClose={showModalHandler} header="Invalid input">
-        {confirmMsg}
-      </Modal> }
+      { !isValid && <ErrorModal 
+        onClose={showModalHandler} 
+        title="Invalid input"
+        message={confirmMsg}
+      /> }
     </Card>
   );
 };

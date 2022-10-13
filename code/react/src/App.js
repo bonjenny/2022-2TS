@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AddUser from "./components/8_AddUser/Users/AddUser";
+import UserInput from "./components/8_AddUser/Users/UserInput";
 import UsersList from "./components/8_AddUser/Users/UsersList";
 import "./App.css";
 
@@ -35,6 +36,7 @@ const App = () => {
     <div>
       <section id="user-form">
         <AddUser onAddUser={addUserHandler} />
+        <UserInput onAddUser={addUserHandler} />
       </section>
       <section id="users">
         <UsersList users={usersList} onDeleteUser={deleteUserHandler} />
