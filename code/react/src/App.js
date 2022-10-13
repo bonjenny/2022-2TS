@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import AddUser from "./components/8_AddUser/Users/AddUser";
-import UsersList from "./components/8_AddUser/Users/UsersList";
+import AddUser from "./components/8-9_AddUser/Users/AddUser";
+import UsersList from "./components/8-9_AddUser/Users/UsersList";
+// import Wrapper from "./components/8-9_AddUser/Helpers/Wrapper";
 import "./App.css";
 
 const App = () => {
@@ -27,14 +28,14 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <section id="user-form">
         <AddUser onAddUser={addUserHandler} />
       </section>
       <section id="users">
         <UsersList users={usersList} onDeleteUser={deleteUserHandler} />
       </section>
-    </div>
+    </>
   );
 };
 export default App;
