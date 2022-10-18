@@ -7400,6 +7400,11 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
+"react-use-effect@^0.0.1":
+  "integrity" "sha512-HCyEfSeDtm6ttSyTcitnx1s9qOf9XkWyXbz6L/nKc/yEvsrSGm1XCPyDPi/8cGg9VekIrQQ/2Gucj0id4HTHGQ=="
+  "resolved" "https://registry.npmjs.org/react-use-effect/-/react-use-effect-0.0.1.tgz"
+  "version" "0.0.1"
+
 "react@*", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
