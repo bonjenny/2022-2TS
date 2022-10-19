@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useRef, useImperativeHandle } from "react";
 import classes from "./Input.module.css";
 
-const Input = (props) => {
-  const className = classes.input + " " + props.className;
+const Input = React.forwardRef((props, ref) => {
+  const inputRef = useRef();
+  const activate = () => {
+    inputRef.current.focus();
+  };
+  useImperativeHandle(ref, () => {
+    return { focus: activate };
+  });
+
   return (
-    <div className={className}>
-      <label htmlFor={props.typeId}>{props.labelContent}</label>
+    <div className={`${classes.input} ${
+        props.isValid === false ? classes.invalid : ""
+      }`}>
+      <label htmlFor={props.id}>{props.label}</label>
       <input
-        type={props.typeId}
-        id={props.typeId}
-        value={props.inputValue}
-        onChange={props.inputChangeHandler}
-        onBlur={props.inputBlurHandler}
+        ref={inputRef}
+        type={props.type}
+        id={props.id}
+        value={props.value}
+        onChange={props.onChange}
+        onBlur={props.onBlur}
       />
     </div>
   );
-};
+});
 export default Input;
