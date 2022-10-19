@@ -23,7 +23,9 @@ const Modal = (props) => {
         document.getElementById("backdrop-root")
       )}
       {createPortal(
-        <ModalOverlay onClose={props.onClose}>
+        <ModalOverlay
+          // onClose={props.onClose}
+        >
           {props.children}
         </ModalOverlay>,
         document.getElementById("overlay-root")

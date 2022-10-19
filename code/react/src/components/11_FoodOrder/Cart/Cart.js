@@ -1,18 +1,45 @@
-import Modal from "../UI/Modal";
 import classes from "./CSS/Cart.module.css";
+import Modal from "../UI/Modal";
+import CartItem from "./CartItem";
+
+const DUMMY_CARTS = [
+  {
+    id: "c1",
+    name: "Sushi",
+    amount: 2,
+    price: 12.99,
+  },
+  {
+    id: "c2",
+    name: "Schnitzel",
+    amount: 1,
+    price: 16.5,
+  },
+];
 
 const Cart = (props) => {
-  const cartItems = (
-    <ul className={classes["cart-items"]}>
-      {[{ id: "c1", name: "Sushi", amount: 2, price: 12.99 }].map((item) => (
-        <li>{item.name}</li>
-      ))}
-    </ul>
-  );
+  const removeHandler = () => {
+    console.log('remove!');
+  }
+  const addHandler = () => {
+    console.log('add!');
+  }
+
+  const cartsList = DUMMY_CARTS.map((item) => (
+    <CartItem
+      id={item.id}
+      key={item.id}
+      name={item.name}
+      amount={item.amount}
+      price={item.price}
+      onRemove={removeHandler}
+      onAdd={addHandler}
+    />
+  ));
 
   return (
     <Modal>
-      {cartItems}
+      <ul className={classes["cart-items"]}>{cartsList}</ul>
       <div className={classes.total}>
         <span>Total Amount</span>
         <span>35.62</span>
