@@ -1,8 +1,5 @@
-import { Fragment } from "react";
-
 import MealItem from "./MealItem/MealItem";
 import Card from "../UI/Card";
-import Cart from "../Cart/Cart";
 import classes from "./CSS/AvailableMeals.module.css";
 
 const DUMMY_MEALS = [
@@ -44,12 +41,9 @@ const AvailableMeals = () => {
   ));
 
   return (
-    <Fragment>
-      <Card className={classes.meals}>
-        <ul>{mealsList}</ul>
-      </Card>
-      <Cart />
-    </Fragment>
+    <Card className={classes.meals}>
+      <ul>{mealsList}</ul>
+    </Card>
   );
 };
 

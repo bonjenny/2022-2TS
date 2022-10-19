@@ -10,26 +10,19 @@ const Backdrop = (props) => {
 const ModalOverlay = (props) => {
   return (
     <div className={`${classes.modal} ${props.className}`}>
-      {props.children}
+      <div className={classes.content}>{props.children}</div>
     </div>
   );
 };
 
+const backdropElement = document.getElementById("overlay-root");
+const overlayElement = document.getElementById("overlay-root");
+
 const Modal = (props) => {
   return (
     <Fragment>
-      {createPortal(
-        <Backdrop onClose={props.onClose} />,
-        document.getElementById("backdrop-root")
-      )}
-      {createPortal(
-        <ModalOverlay
-          // onClose={props.onClose}
-        >
-          {props.children}
-        </ModalOverlay>,
-        document.getElementById("overlay-root")
-      )}
+      {createPortal(<Backdrop onClose={props.onClose} />, backdropElement)}
+      {createPortal(<ModalOverlay>{props.children}</ModalOverlay>, overlayElement)}
     </Fragment>
   );
 };
