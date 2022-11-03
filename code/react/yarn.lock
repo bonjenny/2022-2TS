@@ -5938,6 +5938,11 @@
   "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   "version" "4.0.8"
 
+"lodash.isplainobject@^4.0.6":
+  "integrity" "sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA=="
+  "resolved" "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
+  "version" "4.0.6"
+
 "lodash.memoize@^4.1.2":
   "integrity" "sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag=="
   "resolved" "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz"
@@ -7405,7 +7410,7 @@
   "resolved" "https://registry.npmjs.org/react-use-effect/-/react-use-effect-0.0.1.tgz"
   "version" "0.0.1"
 
-"react@*", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0":
+"react@*", "react@^15.4.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -8590,6 +8595,11 @@
   dependencies:
     "punycode" "^2.1.0"
 
+"use-compose@^0.4.0":
+  "integrity" "sha512-4iY+jcDqjemiNS1pxFaVWWwAuDRKVFV4avrSlDuAmtwhuz+24jITsZMou8gGZl5rud5QRSUIENvezgQ8K4YeLA=="
+  "resolved" "https://registry.npmjs.org/use-compose/-/use-compose-0.4.0.tgz"
+  "version" "0.4.0"
+
 "use-context@^0.0.1":
   "integrity" "sha512-E3UlFYcr4IFCEs8RfoHCV9TD+PWJrray212or/u0646wfUELO53lWv/0qA6rQY6hDk8/L0Gv7+UOGKjJxYzApQ=="
   "resolved" "https://registry.npmjs.org/use-context/-/use-context-0.0.1.tgz"
@@ -8604,6 +8614,14 @@
   "integrity" "sha512-lqxll7X4IrLo7AFbm9kVHEkAPOGo+UkXWm1607HR2ZTRshAr8f2zlqS8wpZtmaA+Y7hO/UmA6lOc2lkTFtJGEQ=="
   "resolved" "https://registry.npmjs.org/use-reducer/-/use-reducer-0.0.1.tgz"
   "version" "0.0.1"
+
+"use-state@^0.0.3":
+  "integrity" "sha512-orIdx94MZQoPqxW7fa9glvs7pNScBc9OidZ9yuq93xpLJm74D4hivIml0HtJIznCYZIyPwws44FXSnp7xOoaMw=="
+  "resolved" "https://registry.npmjs.org/use-state/-/use-state-0.0.3.tgz"
+  "version" "0.0.3"
+  dependencies:
+    "lodash.isplainobject" "^4.0.6"
+    "use-compose" "^0.4.0"
 
 "useref@^1.4.4":
   "integrity" "sha512-Hcr9SSq1OsLSa9VAVtA28j8HrpFB2AdbRAkFPbBArDe6y54jQmgulQRxphdi5TAjVPj0mmEJfjBUuZArsmfsqQ=="
