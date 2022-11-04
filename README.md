@@ -14,6 +14,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>리액트 대안 탐색하기</li>
 <li>강의 개요</li>
 </ol>
+<img src="./etc/img/s1.JPG" alt="section 1 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -35,6 +36,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>차세대 JavaScript - 요약 1</li>
 <li>차세대 JavaScript - 요약 2</li>
 </ol>
+<img src="./etc/img/s2.JPG" alt="section 2 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -65,6 +67,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>대체 함수 문법 (Syntax)</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s3.JPG" alt="section 3 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -90,6 +93,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li value="65">제어된/안된 컴포넌트 및 Statetless/ful 컴포넌트</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s4.JPG" alt="section 4 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -110,6 +114,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>작은 버그 수정</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s5.JPG" alt="section 5 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -126,6 +131,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>CSS 모듈을 사용한 동적 스타일</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s6.JPG" alt="section 6 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -139,6 +145,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>리액트 DevTools </li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s7.JPG" alt="section 7 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -157,6 +164,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>오류 State 관리하기</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s8.JPG" alt="section 8 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -173,6 +181,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>제어되는 컴포넌트와 제어되지 않는 컴포넌트</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s9.JPG" alt="section 9 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -202,6 +211,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>"Forward Refs"에 대해 </li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s10.JPG" alt="section 10 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -228,6 +238,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>useEffect 훅 사용하기</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s11.JPG" alt="section 11 미리보기" style="width: 35em" />
 </div>
 </details>
 <details>
@@ -247,5 +258,6 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 <li>useMemo()로 최적화하기</li>
 <li>모듈 리소스</li>
 </ol>
+<img src="./etc/img/s12.JPG" alt="section 12 미리보기" style="width: 35em" />
 </div>
 </details>
