@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Todo from "./components/1_JustJS/component/Todo";
 import NewExpense from "./components/3-4_ChartExpense/NewExpense/NewExpense";
 import Expenses from "./components/3-4_ChartExpense/Expense/Expenses";
+import style from "./components/1_JustJS/styles.css";
 
 const DUMMY_EXPENSES = [
   {
@@ -41,11 +42,11 @@ const App = () => {
 
   return (
     <div>
-      <h1>My Todos</h1>
-      <Todo text='Learn React' />
       <h1>Expenses</h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
+      <h1>My Todos</h1>
+      <Todo className={style.todo} text='Learn React' />
     </div>
   );
 }
