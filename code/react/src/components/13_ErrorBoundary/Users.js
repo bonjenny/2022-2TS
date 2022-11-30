@@ -1,19 +1,19 @@
-import { Component } from 'react';
-import User from './User';
-import classes from './CSS/Users.module.css';
+import { Component } from "react";
+import User from "./User";
+import classes from "./CSS/Users.module.css";
 
 class Users extends Component {
   constructor() {
     super();
     this.state = { showUsers: true };
-  };
+  }
 
   toggleUsersHandler() {
     // this.state.showUsers = false; // NOT!
     this.setState((curState) => {
       return { showUsers: !curState.showUsers };
     });
-  };
+  }
 
   render() {
     const usersList = (
@@ -27,12 +27,12 @@ class Users extends Component {
     return (
       <div className={classes.users}>
         <button onClick={this.toggleUsersHandler.bind(this)}>
-          {this.state.showUsers ? 'Hide' : 'Show'} Users
+          {this.state.showUsers ? "Hide" : "Show"} Users
         </button>
         {this.state.showUsers && usersList}
       </div>
     );
-  };
-};
+  }
+}
 
 export default Users;
