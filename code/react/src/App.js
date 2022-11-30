@@ -1,10 +1,21 @@
 import UserFinder from "./components/13_ErrorBoundary/UserFinder";
+import UsersContext from "./store/13_ErrorBoundary/users-context";
+
+const DUMMY_USERS = [
+  { id: "u1", name: "Max" },
+  { id: "u2", name: "Manuel" },
+  { id: "u3", name: "Julie" },
+];
 
 function App() {
+  const usersContext = {
+    users: DUMMY_USERS,
+  };
+
   return (
-    <div>
+    <UsersContext.Provider value={usersContext}>
       <UserFinder />
-    </div>
+    </UsersContext.Provider>
   );
 }
 
