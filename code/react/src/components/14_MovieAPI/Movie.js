@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import classes from './CSS/Movie.module.css';
+import classes from "./CSS/Movie.module.css";
 
 const Movie = (props) => {
   return (
