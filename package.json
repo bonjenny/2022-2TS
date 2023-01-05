@@ -1,45 +1,10 @@
 {
-  "name": "react-in-action",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^5.3.6",
-    "web-vitals": "^1.1.0"
-  },
   "scripts": {
     "start": "cd code/react && yarn start",
     "build": "cd code/react && yarn build",
     "test": "cd code/react && yarn test",
     "eject": "cd code/react && yarn eject",
-    "add": "cd code/react && yarn add"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "webpack": "^5.74.0",
-    "webpack-dev-middleware": "^5.3.3",
-    "webpack-hot-middleware": "^2.25.2"
+    "add": "cd code/react && yarn add",
+    "install": "cd code/react && npm install"
   }
 }
