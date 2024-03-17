@@ -4,7 +4,7 @@ JavaScript부터 웹 어플리케이션 배포까지,
 React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 법
 
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/1-What-is-react-And-Why-would-we-use-it-What-is-SPA-9ba7232154f84c58a0fc237f473dac5c">💎 섹션 1: 시작하기 - What is react? And Why would we use it? What  is SPA?</a></summary>
+<summary><a href="https://bonjenny.notion.site/1-What-is-react-And-Why-would-we-use-it-What-is-SPA-9ba7232154f84c58a0fc237f473dac5c">💎 섹션 1: 시작하기 - What is react? And Why would we use it? What  is SPA?</a></summary>
 <div markdown="1">
 <ol>
 <li>강의에 오신 것을 환영합니다!</li>
@@ -18,7 +18,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/2-8270c0dfeff341edae0a4f9cb55d4e4a">💎 섹션 2: 자바스크립트 새로고침</a></summary>
+<summary><a href="https://bonjenny.notion.site/2-8270c0dfeff341edae0a4f9cb55d4e4a">💎 섹션 2: 자바스크립트 새로고침</a></summary>
 <div markdown="1">
 <ol start="10">
 <li>Next-Gen JavaScript</li>
@@ -40,7 +40,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/3-5308bd3870f64c7a93934ddfacba2bf3">💎 섹션 3: 리액트 기초 및 실습 컴포넌트</a></summary>
+<summary><a href="https://bonjenny.notion.site/3-5308bd3870f64c7a93934ddfacba2bf3">💎 섹션 3: 리액트 기초 및 실습 컴포넌트</a></summary>
 <div markdown="1">
 <ol start="24">
 <li>모듈 소개</li>
@@ -71,7 +71,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/4-State-83a093a265dd4caeae59bfe1bc76fbda">💎 섹션 4: 리액트 State 및 이벤트 다루기</a></summary>
+<summary><a href="https://bonjenny.notion.site/4-State-83a093a265dd4caeae59bfe1bc76fbda">💎 섹션 4: 리액트 State 및 이벤트 다루기</a></summary>
 <div markdown="1">
 <ol start="48">
 <li>모듈 소개</li>
@@ -97,7 +97,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/5-Content-b50611fa7e004085bf7c8c3ff9024f9d">💎 섹션 5: 렌더링 리스트 및 조건부 Content</a></summary>
+<summary><a href="https://bonjenny.notion.site/5-Content-b50611fa7e004085bf7c8c3ff9024f9d">💎 섹션 5: 렌더링 리스트 및 조건부 Content</a></summary>
 <div markdown="1">
 <ol start="67">
 <li>모듈 소개</li>
@@ -118,7 +118,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/6-e074b7d478e242b08cadf5f975ae542e">💎 섹션 6: 리액트 컴포넌트 스타일링</a></summary>
+<summary><a href="https://bonjenny.notion.site/6-e074b7d478e242b08cadf5f975ae542e">💎 섹션 6: 리액트 컴포넌트 스타일링</a></summary>
 <div markdown="1">
 <ol start="82">
 <li>모듈 소개</li>
@@ -135,7 +135,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/7-f43ed7d2104b424a99d0bb418805eef6">💎 섹션 7: 리액트 앱 디버깅하기</a></summary>
+<summary><a href="https://bonjenny.notion.site/7-f43ed7d2104b424a99d0bb418805eef6">💎 섹션 7: 리액트 앱 디버깅하기</a></summary>
 <div markdown="1">
 <ol start="91">
 <li>모듈 소개</li>
@@ -149,7 +149,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/8-6da7a0f6dacc45508435a42ba2acebb9">💎 섹션 8: 연습 프로젝트</a></summary>
+<summary><a href="https://bonjenny.notion.site/8-6da7a0f6dacc45508435a42ba2acebb9">💎 섹션 8: 연습 프로젝트</a></summary>
 <div markdown="1">
 <ol start="97">
 <li>모듈 소개</li>
@@ -168,7 +168,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/9-Portals-Refs-485e59dc1e6f4806a5e9b4dcf9e47af3">💎 섹션 9: Portals & “Refs”</a></summary>
+<summary><a href="https://bonjenny.notion.site/9-Portals-Refs-485e59dc1e6f4806a5e9b4dcf9e47af3">💎 섹션 9: Portals & “Refs”</a></summary>
 <div markdown="1">
 <ol start="108">
 <li>모듈 소개</li>
@@ -185,7 +185,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/10-Reducer-API-d0b19f64bb5c4ca4a27d851fcfd97349">💎 섹션 10: Reducer를 사용하여 부작용 처리 & 컨텍스트 API 사용</a></summary>
+<summary><a href="https://bonjenny.notion.site/10-Reducer-API-d0b19f64bb5c4ca4a27d851fcfd97349">💎 섹션 10: Reducer를 사용하여 부작용 처리 & 컨텍스트 API 사용</a></summary>
 <div markdown="1">
 <ol start="117">
 <li>모듈 소개</li>
@@ -215,7 +215,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/11-Building-a-Food-Order-App-d101214f10ed412eb0d117650c81bb6b">💎 섹션 11: Building a Food Order App</a></summary>
+<summary><a href="https://bonjenny.notion.site/11-Building-a-Food-Order-App-d101214f10ed412eb0d117650c81bb6b">💎 섹션 11: Building a Food Order App</a></summary>
 <div markdown="1">
 <ol start="139">
 <li>모듈 소개</li>
@@ -242,7 +242,7 @@ React와 프론트엔드 최신 기술을 가장 쉽고 확실하게 배우는 �
 </div>
 </details>
 <details>
-<summary><a href="https://walnut-flyaway-f2b.notion.site/12-A-Look-Behind-The-Scenes-Of-React-Optimization-Techniques-c8f81ad3039049228ff6b4824c7cf41d">💎 섹션 12: A Look Behind The Scenes Of React & Optimization Techniques</a></summary>
+<summary><a href="https://bonjenny.notion.site/12-A-Look-Behind-The-Scenes-Of-React-Optimization-Techniques-c8f81ad3039049228ff6b4824c7cf41d">💎 섹션 12: A Look Behind The Scenes Of React & Optimization Techniques</a></summary>
 <div markdown="1">
 <ol start="159">
 <li>모듈 소개</li>
